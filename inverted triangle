@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	scanf("%d",&n);
+	int stars=n-i;
+	for(int i=n;i>1;i--)
+	{
+		for(int j=1;j<=n-i;j++)
+		{
+			printf(" ");
+		}
+		for(int j=1;j<=stars;j++)
+		{
+			printf("*");
+		}
+		stars-=2;
+		printf("\n");
+	}
+	return 0;
+}
