@@ -1,7 +1,5 @@
-Area of Trapezium
-Program Description
-Given the base1, base2, and height of Trapezium.Calculate the area of Trapezium.
-Note: Adjust the area upto four decimal points.
+//Given the base1, base2, and height of Trapezium.Calculate the area of Trapezium.
+//Note: Adjust the area upto four decimal points.
 
 #include<stdio.h>
 int main()
